@@ -8,5 +8,5 @@ wsrep_provider=/usr/lib/galera/libgalera_smm.so
 wsrep_cluster_name="galera_cluster1"
 wsrep_cluster_address="gcomm://node1,node2,node3"
 wsrep_sst_method=rsync
-wsrep_node_address="vip"
+wsrep_node_address="node1"
 wsrep_node_name="node-db1"
