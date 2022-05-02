@@ -1,7 +1,7 @@
 #
 server {
     listen       80;
-    server_name galera.int.hicolony.com;
+    server_name galera.example.com;
     location / {
         return 301 https://$host$request_uri;
         include /etc/nginx/restricted.conf;
