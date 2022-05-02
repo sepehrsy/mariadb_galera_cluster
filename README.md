@@ -77,8 +77,9 @@ https://galeracluster.com/library/documentation/gmd-install.html
 systemctl reload nginx
 ```
 #### on the Galare Manager Server we must:
-1: delete defult config from /etc/nginx/site-enabled
-2: change server_name of /etc/nginx/sites-enabled/gmd  to 
+
+##### 1: delete defult config from /etc/nginx/site-enabled
+##### 2: change server_name of /etc/nginx/sites-enabled/gmd  to 
 ```
 server {
     server_name 172.16.101.53 galera.int.hicolony.com;
