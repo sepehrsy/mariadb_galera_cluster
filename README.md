@@ -82,7 +82,7 @@ systemctl reload nginx
 ##### 2: change server_name of /etc/nginx/sites-enabled/gmd  to 
 ```
 server {
-    server_name 172.16.101.53 galera.int.hicolony.com;
+    server_name galera_ip galera.example.com;
  ```
 
 
